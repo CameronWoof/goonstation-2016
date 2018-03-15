@@ -373,3 +373,16 @@
 			user.suiciding = 0
 	qdel(src)
 	return 1
+
+/* -------------------- Spray Applicators -------------------- */
+
+/obj/item/storage/box/medsprays
+	name = "box of spray applicators"
+	icon_state = "medsprays"
+	desc = "A box containing a set of brand-new spray applicators, ready to be loaded and used."
+	spawn_contents = list(/obj/item/reagent_containers/medspray/red,
+	/obj/item/reagent_containers/medspray/pink,
+	/obj/item/reagent_containers/medspray/yellow,
+	/obj/item/reagent_containers/medspray/green,
+	/obj/item/reagent_containers/medspray/purple,
+	/obj/item/reagent_containers/medspray/blue)

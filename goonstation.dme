@@ -302,6 +302,7 @@ var/datum/preMapLoad/preMapLoad = new
 #include "code\datums\chemistry\tools\hyposprays.dm"
 #include "code\datums\chemistry\tools\iv_drips.dm"
 #include "code\datums\chemistry\tools\jars.dm"
+#include "code\datums\chemistry\tools\medspray.dm"
 #include "code\datums\chemistry\tools\patches.dm"
 #include "code\datums\chemistry\tools\pills.dm"
 #include "code\datums\chemistry\tools\sleepy_pen.dm"
