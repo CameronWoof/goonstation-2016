@@ -100,12 +100,16 @@
 	icon_state = "medsprayblue"
 
 /obj/item/reagent_containers/medspray/styptic_powder
+	name = "spray applicator (styptic powder)"
+	desc = "A refillable spray applicator, preloaded with styptic powder. For use on cuts and bruises."
 
 	New()
 		..()
 		reagents.add_reagent("styptic_powder", 80)
 
 /obj/item/reagent_containers/medspray/silver_sulfadiazine
+	name = "spray applicator (silver sulfadiazine)"
+	desc = "A refillable spray applicator, preloaded with silver sulfadiazine. Apply generously to burns."
 	item_state = "medsprayyellow"
 	icon_state = "medsprayyellow"
 
@@ -114,6 +118,8 @@
 		reagents.add_reagent("silver_sulfadiazine", 80)
 
 /obj/item/reagent_containers/medspray/synthflesh
+	name = "spray applicator (synthflesh)"
+	desc = "A refillable spray applicator, preloaded with synthflesh. Highly effective burn and brute medication."
 	item_state = "medspraypink"
 	icon_state = "medspraypink"
 
