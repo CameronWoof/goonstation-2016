@@ -373,3 +373,17 @@
 			user.suiciding = 0
 	qdel(src)
 	return 1
+
+/* -------------------- Jet Injectors -------------------- */
+
+/obj/item/storage/box/jetinjector
+	name = "jet injector kit"
+	desc = "A prepackaged jet injector and a set of sample cartridges."
+	icon_state = "jectinject"
+	spawn_contents = list(/obj/item/reagent_containers/jetinjector,\
+	/obj/item/reagent_containers/jetcart/neuro,\
+	/obj/item/reagent_containers/jetcart/brute,\
+	/obj/item/reagent_containers/jetcart/burn,\
+	/obj/item/reagent_containers/jetcart/toxin,\
+	/obj/item/reagent_containers/jetcart/genetic,\
+	/obj/item/reagent_containers/jetcart/oxy)
