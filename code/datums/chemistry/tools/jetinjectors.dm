@@ -4,7 +4,7 @@
 
 /obj/item/reagent_containers/jetcart
 	name = "injector cartridge"
-	desc = "A disposable chemical cartridge, used with jet injectors."
+	desc = "A disposable chemical cartridge, used with jet injectors. Bane of janitors company-wide."
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "cartred"
 	initial_volume = 40
@@ -111,7 +111,7 @@
 
 	attack_hand(mob/user as mob)
 		src.add_fingerprint(user)
-		if (src.loc == user && src.cart)
+		if (user.find_in_hand(src) && src.cart)
 			src.reagents.trans_to(src.cart, reagents.total_volume)
 			user.put_in_hand_or_drop(src.cart)
 			cart = null
