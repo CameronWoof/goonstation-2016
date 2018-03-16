@@ -379,7 +379,7 @@
 /obj/item/storage/box/jetinjector
 	name = "jet injector kit"
 	desc = "A prepackaged jet injector and a set of sample cartridges."
-	icon_state = "jectinject"
+	icon_state = "jetinject"
 	spawn_contents = list(/obj/item/reagent_containers/jetinjector,\
 	/obj/item/reagent_containers/jetcart/neuro,\
 	/obj/item/reagent_containers/jetcart/brute,\
